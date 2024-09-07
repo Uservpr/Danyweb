@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const t=document.getElementById("copy-button"),o=document.getElementById("code-block").innerText;t.addEventListener("click",()=>{const e=document.createElement("textarea");e.value=o,document.body.appendChild(e),e.select(),document.execCommand("copy"),document.body.removeChild(e),alert("Kode berhasil disalin ke clipboard!")})});
